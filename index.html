@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&family=Poppins:wght@300;400&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/pattern.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Meu Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#about" class="menu-item">QUEM SOU</a></li>
+                    <li><a href="#cases" class="menu-item">CASES</a></li>
+                    <li><a href="#contact" class="menu-item">ENTRE EM CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Section Hero -->
+        <section class="s-hero">
+            <div class="container">
+                <div class="title-box">
+                    <h1>
+                        Olá!👋🏻 Eu sou <br />
+                        <span>Vini Moraes</span>
+                    </h1>
+                    <h2>Desenvolvedor Web em formação</h2>
+
+                    <div class="techs">
+                        <a href="">
+                            <img src="./assets/img/html.svg" alt="Techs - HTML" />
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/css.svg" alt="Techs - CSS" />
+                        </a>
+                        <a href="">
+                            <img src="./assets/img/javascript.svg" alt="Techs - Javascript" />
+                        </a>
+                    </div>
+
+                    <a href="#cases" class="btn-primary empty"> Veja meus cases</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="#about" class="s-about">
+            <div class="container">
+                <div class="about-me">
+                    <h2>QUEM SOU<span>.</span></h2>
+                    <p>
+                        Meu nome é Vinicius, tenho 18 anos e moro na região metropolitana de Curitiba. Comecei a estudar
+                        programação
+                        no ano de 2021 através de um bootcamp de desenvolvimento Web full stack, onde fui introduzido a
+                        tecnologias
+                        como HTML5, CSS3, JavaScript, Angular, Bootstrap, NodeJS e bancos de dados. Atualmente participo
+                        do programa
+                        DevStart da BeAcademy, onde estudo PHP.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank'"><img src="./assets/img/icon-linkedin.svg"
+                                    alt="Meu Linkedin" /></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><img src="./assets/img/icon-github.svg" alt="Meu GitHub" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="my-picture">
+                    <img src="./assets/img/picture.jpg" alt="Foto de um homem sobre o monumento das argolas olimpicas"
+                        title="Foto do Luan Monteiro" />
+                </div>
+            </div>
+        </section>
+
+        <section id="#cases" class="s-cases">
+            <div class="container">
+                <div class="title-cases">
+                    <h2>CASES<span>.</span></h2>
+                </div>
+
+                <div class="cases">
+                    <div class="case">
+                        <img src="./assets/img/case1.jpg" alt="Case de sucesso 1" />
+                    </div>
+                    <div class="case">
+                        <img src="./assets/img/case2.jpg" alt="Case de sucesso 2" />
+                    </div>
+                    <div class="case">
+                        <img src="./assets/img/case3.jpg" alt="Case de sucesso 3" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="#contact" class="s-contact">
+            <div class="container">
+                <div class="title-contact">
+                    <h2>ENTRE EM CONTATO<span>.</span></h2>
+                </div>
+                <form class="form-contact" action="#" method="post">
+                    <div class="input-group">
+                        <input type="text" name="name" placeholder="Preencha seu nome" required />
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" name="email" placeholder="Preencha seu email" required />
+                    </div>
+
+                    <div class="input-group">
+                        <textarea rows="6" name="message" placeholder="Deixe sua mensagem"></textarea>
+                    </div>
+                    <div class="input-button">
+                        <button class="btn-primary" type="submit">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <p>Projeto desenvolvido como parte do programa DevStart da BeAcademy.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

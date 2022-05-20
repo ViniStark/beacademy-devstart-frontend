@@ -1,0 +1,246 @@
+/* HEADER */
+
+header {
+  background-color: var(--black-color-medium);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 3rem 0rem;
+  z-index: 2022;
+}
+
+header .container {
+  display: flex;
+}
+
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+header .container nav .menu {
+  display: flex;
+  align-items: center;
+}
+
+header .container nav .menu li {
+  margin: auto 4.8rem;
+}
+
+/* Section Hero */
+
+.s-hero {
+  background: url(../img/s-hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.s-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-hero .container .title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 59.2rem;
+  margin-top: 24rem;
+  padding-bottom: 6rem;
+}
+
+.s-hero .container .title-box h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  text-align: center;
+  color: var(--white-color);
+}
+.s-hero .container .title-box h1 span {
+  color: var(--primary-color);
+}
+
+.s-hero .container .title-box h2 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 6rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
+}
+
+.s-hero .container .title-box .techs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  margin-top: 2.3rem;
+}
+
+.s-hero .container .title-box .techs img {
+  transition: all 0.2s;
+}
+
+.s-hero .container .title-box .techs img:hover {
+  transform: translateY(-12%);
+}
+
+.s-hero .container .title-box .btn-primary {
+  margin-top: 4rem;
+  padding: 1rem 5.6rem;
+}
+
+/* About */
+
+.s-about {
+  background-color: var(--black-color-medium);
+  padding: 6rem 0rem;
+}
+
+.s-about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-about .container .about-me {
+  width: 100%;
+  max-width: 71rem;
+}
+
+.s-about .container .about-me h2 {
+  font-weight: 900;
+}
+
+.s-about .container .about-me p {
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: var(--white-color-alpha);
+  margin-top: 2.4rem;
+}
+
+.s-about .container .about-me ul {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+
+.s-about .container .about-me ul li img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.s-about .container .my-picture img {
+  border-radius: 4px;
+  margin-left: 4.8rem;
+}
+
+/* Cases */
+
+.s-cases {
+  padding: 5rem 0rem;
+}
+
+.s-cases .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-cases .container .title-cases {
+  margin-bottom: 7.4rem;
+}
+
+.s-cases .container .title-cases h2 {
+  font-weight: 900;
+}
+
+.s-cases .container .cases {
+  display: flex;
+  width: 100%;
+}
+
+.s-cases .container .cases .case img {
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.s-cases .container .cases .case img:hover {
+  transform: translateY(-2%);
+}
+
+.s-cases .container .cases .case:nth-child(2) {
+  border-radius: 0.4rem;
+  cursor: pointer;
+  margin-top: -1.6rem;
+}
+
+/* Contact */
+
+.s-contact {
+  padding-top: 4rem;
+  padding-bottom: 5.1rem;
+}
+
+.s-contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-contact .container .title-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 100%;
+  max-width: 34.3rem;
+}
+
+.s-contact .container .title-contact h2 {
+  font-weight: 900;
+}
+
+.s-contact .container .form-contact {
+  width: 100%;
+  max-width: 48.6rem;
+}
+
+.s-contact .container .form-contact .input-group input[type="text"],
+.s-contact .container .form-contact .input-group input[type="email"] {
+  margin-bottom: 3.1rem;
+}
+
+.input-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.7rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--black-color-medium);
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .copy {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  line-height: 2.4rem;
+  padding: 5.2rem 0;
+}
